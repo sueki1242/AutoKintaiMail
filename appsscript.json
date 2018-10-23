@@ -1,0 +1,17 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "gmail": {
+    "name": "KintaiMail",
+    "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/bookmark_black_24dp.png",
+    "universalActions": [{
+        "text": "電車遅延メール送信",
+        "runFunction": "SendTrainDelayMail"
+    },{
+        "text": "休暇メール送信",
+        "runFunction": "SendPaidLeaveMail"
+    }]
+  }
+}
